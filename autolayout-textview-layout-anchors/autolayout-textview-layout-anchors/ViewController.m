@@ -13,7 +13,6 @@
 @property (strong, nonatomic) IBOutlet UIButton *leftButton;
 @property (strong, nonatomic) IBOutlet UITextView *textField;
 
-
 @end
 
 @implementation ViewController
@@ -24,12 +23,9 @@
     
     // Remove settings
     self.view.translatesAutoresizingMaskIntoConstraints = NO;
-
+//    [self.view removeConstraint:self.view.constraints];
     self.rightButton.translatesAutoresizingMaskIntoConstraints = NO;
-
-    
     self.leftButton.translatesAutoresizingMaskIntoConstraints = NO;
-
     self.textField.translatesAutoresizingMaskIntoConstraints= NO;
 
     

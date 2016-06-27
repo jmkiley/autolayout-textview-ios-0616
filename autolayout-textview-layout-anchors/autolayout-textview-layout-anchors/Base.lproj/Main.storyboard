@@ -38,6 +38,7 @@
                     <connections>
                         <outlet property="leftButton" destination="hgw-bq-3XM" id="BHE-wI-nk6"/>
                         <outlet property="rightButton" destination="go7-Vm-iad" id="RGN-8W-nZk"/>
+                        <outlet property="textField" destination="O6y-6E-pDB" id="mUS-qq-2O5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
